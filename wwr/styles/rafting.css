@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    max-width: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #78C5D7;
+    --secondary-color: #FCE172;
+    --accent1-color: #124166;
+    --accent2-color: #B8B8B8;
+
+    --heading-font: "Poetsen One", san-serif;
+    --paragraph-font: "Poetsen One", san-serif;
+
+    --nav-background-color: #78C5D7;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #FCE172;
+    --nav-hover-background-color: #124166;
+
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+      
+}
+
+nav {
+    background: linear-gradient(white, var(--nav-background-color));
+}
+
+nav img {
+    width: 200px;
+}
+
+nav a {
+    font-size: 23px;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: white;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+    font-family: var(--paragraph-font);
+    color: var(var(--accent1-color));
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent1-color)
+}
+
+article {
+    position: absolute;
+    top: 350px;
+    background-color: #124166BB;
+    color:#ffffff;
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: var(--accent1-color);
+    background-color: var(--secondary-color)
+}
+
+.hero {
+    position: relative;
+}
+
+
+article img {
+  
+    float: right;
+    max-width: 200px;
+    height: auto;  
+}
+
+article p {
+    padding: 20px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+ {
+    max-width: 30px;
+    height: auto;
+}
