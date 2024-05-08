@@ -31,7 +31,8 @@ nav {
 }
 
 nav img {
-    width: 200px;
+    width: 150px;
+    height: auto;
 }
 
 nav a {
@@ -58,7 +59,7 @@ a {
 article {
     position: absolute;
     top: 350px;
-    background-color: #124166BB;
+    background-color: #124166AA;
     color:#ffffff;
     width: 100%;
 }
@@ -71,7 +72,7 @@ h1 {
     padding-bottom: 10px;
     width: 100%;
     color: var(--accent1-color);
-    background-color: var(--secondary-color)
+    background-color: #FCE172BB
 }
 
 .hero {
