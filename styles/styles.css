@@ -87,12 +87,13 @@ footer {
     border: 1px solid rgba(0,0,0,.1);
     margin: 1rem;
     padding: 1rem;
-    padding-left: 2rem;
     background-color: lightgrey;
     color: darkblue;
 }
 
-
+.temple {
+    padding-left: 2rem;
+}
 
 .grid {
     display: grid;
