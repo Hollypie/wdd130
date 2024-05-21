@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color01: #22577A;
+    --color02: #38A3A5;
+    --color03: #57CC99;
+    --color04: #80ED99;
+    --color05: #C7F9CC;
+    
+    --heading-font: "Montserrat", san-serif;
+    --paragraph-font: "Montserrat", san-serif;
+
+    font-family: var(--paragraph-font);
+      
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+    color: black;
+}
+
+header {
+    margin: 0 auto;
+    width: 700px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: white;
+    background-color: var(--color01);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: linear-gradient(var(--color03), var(--color04), var(--color05), var(--color02));
+    display: grid;
+
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: Arial, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding: .5rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 40px;
+    height: 30px;
+    vertical-align: bottom;
+    padding: 0.2rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--color01);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: var(--color05);
+    color: navy;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--color01);
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+
+}
+
+.column1 {
+    grid-template-columns:  2fr;
+    margin: 1rem;
+
+}
+
+.column2 {
+    grid-template-columns: 2fr;
+    margin: 1rem;
+    
+}
+
+input[type="select"] {
+    padding: 1rem;
+}
+
+.textarea {
+    padding: 1rem;
+}
+
