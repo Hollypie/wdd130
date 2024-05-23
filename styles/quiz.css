@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    max-width: 550px;
+
+}
+
+:root {
+    --color01: #22577A;
+    --color02: #38A3A5;
+    --color03: #57CC99;
+    --color04: #80ED99;
+    --color05: #C7F9CC;
+    
+    --heading-font: "Montserrat", san-serif;
+    --paragraph-font: "Montserrat", san-serif;
+
+    font-family: var(--paragraph-font);
+      
+}
+
+div.title {
+
+    justify-content: center;
+    justify-items: center;
+    background-color: #22577A;
+    color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+h1 {
+    padding: .5rem;
+    margin: .5rem;
+    justify-content: center;
+    justify-items: center;
+}
+
+main {
+    margin: 0 20px 0 20px;
+}
+
+form {
+    display: grid;
+    padding: 20px 0 20px 0;
+    background-color: var(--color05);
+    border: 1px solid var(--color01);
+    border-radius: 1rem;
+    justify-content: center;
+
+}
+
+.question_image {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    margin-bottom: 15px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+button {
+    font-family: var(--paragraph-font);
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #38A3A5;
+    color: white;
+    font-size: 1.5em;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    width: 100%;
+}
+
+button:hover {
+    background-color: var(--color01);
+}
+
+input {
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+
+label {
+    text-align: left;
+
+}
+
+select {
+    margin: .5rem;
+}
+
+.foot {
+    display: grid;
+
+}
+
+footer p {
+    padding-top: 5px;
+    justify-self: center;
+    font-size: .8em;
+}
