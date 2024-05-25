@@ -253,9 +253,11 @@ div.social_media {
     margin-right: 10px;
 }
 
-.contact_us_title {
+h1.contact_us_title {
+    position: relative;
     text-align: center;
     width: 100%;
+    height: 45px;
     padding-bottom: 4px;
     color: var(--accent1-color);
     grid-column: 1 / 2;
@@ -297,21 +299,18 @@ div.map {
 }
 
 .contact_label {
-    display: flexbox;
     text-align: right;
     justify-content: flex-end;
     margin: 5px;
 }
 
 .contact_paragraph_container {
-    display: flexbox;
     text-align: left;
     justify-content: flex-start;
     margin: 5px;
 }
 
 .label_container {
-    display: flexbox;
     justify-content: flex-end;
 }
 
